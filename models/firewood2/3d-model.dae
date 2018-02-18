@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2015-09-24T04:49:23Z</created><keywords></keywords><modified>2015-09-24T04:49:23Z</modified><revision></revision><subject></subject><title></title><unit meter="0.001000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="dbl_Gruppe#161_001" name="dbl_Gruppe#161_001">
+      <instance_effect url="#dbl_Gruppe#161_001-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_002" name="dbl_Gruppe#161_002">
+      <instance_effect url="#dbl_Gruppe#161_002-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_003" name="dbl_Gruppe#161_003">
+      <instance_effect url="#dbl_Gruppe#161_003-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_001_ncl1_1" name="dbl_Gruppe#161_001_ncl1_1">
+      <instance_effect url="#dbl_Gruppe#161_001_ncl1_1-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_002_ncl1_1" name="dbl_Gruppe#161_002_ncl1_1">
+      <instance_effect url="#dbl_Gruppe#161_002_ncl1_1-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_003_ncl1_1" name="dbl_Gruppe#161_003_ncl1_1">
+      <instance_effect url="#dbl_Gruppe#161_003_ncl1_1-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_001_ncl1_2" name="dbl_Gruppe#161_001_ncl1_2">
+      <instance_effect url="#dbl_Gruppe#161_001_ncl1_2-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_002_ncl1_2" name="dbl_Gruppe#161_002_ncl1_2">
+      <instance_effect url="#dbl_Gruppe#161_002_ncl1_2-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_003_ncl1_2" name="dbl_Gruppe#161_003_ncl1_2">
+      <instance_effect url="#dbl_Gruppe#161_003_ncl1_2-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_001_ncl1_3" name="dbl_Gruppe#161_001_ncl1_3">
+      <instance_effect url="#dbl_Gruppe#161_001_ncl1_3-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_002_ncl1_3" name="dbl_Gruppe#161_002_ncl1_3">
+      <instance_effect url="#dbl_Gruppe#161_002_ncl1_3-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_003_ncl1_3" name="dbl_Gruppe#161_003_ncl1_3">
+      <instance_effect url="#dbl_Gruppe#161_003_ncl1_3-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_001_ncl1_4" name="dbl_Gruppe#161_001_ncl1_4">
+      <instance_effect url="#dbl_Gruppe#161_001_ncl1_4-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_002_ncl1_4" name="dbl_Gruppe#161_002_ncl1_4">
+      <instance_effect url="#dbl_Gruppe#161_002_ncl1_4-fx"/>
+    </material>
+    <material id="dbl_Gruppe#161_003_ncl1_4" name="dbl_Gruppe#161_003_ncl1_4">
+      <instance_effect url="#dbl_Gruppe#161_003_ncl1_4-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="dbl_Gruppe#161_001-fx" name="dbl_Gruppe#161_001">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_002-fx" name="dbl_Gruppe#161_002">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_003-fx" name="dbl_Gruppe#161_003">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_001_ncl1_1-fx" name="dbl_Gruppe#161_001_ncl1_1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_002_ncl1_1-fx" name="dbl_Gruppe#161_002_ncl1_1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_003_ncl1_1-fx" name="dbl_Gruppe#161_003_ncl1_1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_001_ncl1_2-fx" name="dbl_Gruppe#161_001_ncl1_2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_002_ncl1_2-fx" name="dbl_Gruppe#161_002_ncl1_2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_003_ncl1_2-fx" name="dbl_Gruppe#161_003_ncl1_2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_001_ncl1_3-fx" name="dbl_Gruppe#161_001_ncl1_3">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_002_ncl1_3-fx" name="dbl_Gruppe#161_002_ncl1_3">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_003_ncl1_3-fx" name="dbl_Gruppe#161_003_ncl1_3">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_001_ncl1_4-fx" name="dbl_Gruppe#161_001_ncl1_4">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_002_ncl1_4-fx" name="dbl_Gruppe#161_002_ncl1_4">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="dbl_Gruppe#161_003_ncl1_4-fx" name="dbl_Gruppe#161_003_ncl1_4">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Gruppe#161_005-lib" name="Gruppe#161_005Mesh">
+      <mesh>
+        <source id="Gruppe#161_005-POSITION">
+          <float_array id="Gruppe#161_005-POSITION-array" count="90">
+-210.000000 60.000000 29.999998
+-210.000000 -51.961524 -0.000002
+-210.000000 -60.000000 29.999998
+-210.000000 -30.000000 -21.961526
+-210.000000 0.000000 -30.000002
+-210.000000 30.000000 -21.961526
+-210.000000 51.961525 -0.000002
+210.000000 -60.000000 29.999998
+210.000000 60.000000 29.999998
+210.000000 -51.961524 -0.000002
+210.000000 60.000000 29.999998
+210.000000 -60.000000 29.999998
+210.000000 -30.000000 -21.961526
+210.000000 0.000000 -30.000002
+210.000000 30.000000 -21.961526
+210.000000 51.961525 -0.000002
+210.000000 -51.961524 -0.000002
+-210.000000 -60.000000 29.999998
+-210.000000 -51.961524 -0.000002
+210.000000 -60.000000 29.999998
+210.000000 -30.000000 -21.961526
+-210.000000 -30.000000 -21.961526
+210.000000 0.000000 -30.000002
+-210.000000 0.000000 -30.000002
+-210.000000 30.000000 -21.961526
+210.000000 30.000000 -21.961526
+210.000000 51.961525 -0.000002
+-210.000000 51.961525 -0.000002
+-210.000000 60.000000 29.999998
+210.000000 60.000000 29.999998
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_005-POSITION-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_005-Normal0">
+          <float_array id="Gruppe#161_005-Normal0-array" count="216">
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.965926 -0.258819
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.965926 -0.258819
+0.000000 0.965926 -0.258819
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_005-Normal0-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_005-UV0">
+          <float_array id="Gruppe#161_005-UV0-array" count="66">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.016077 0.120000
+0.240000 0.240000
+-0.000000 0.240000
+0.060000 0.032154
+0.120000 -0.000000
+0.180000 0.032154
+0.223923 0.120000
+0.000000 0.000000
+0.062117 0.840000
+0.062117 -0.000000
+0.000000 0.840000
+0.124233 0.840000
+0.124233 -0.000000
+0.186350 0.840000
+0.186350 -0.000000
+0.248466 -0.000000
+0.248466 0.840000
+0.310583 0.840000
+0.310583 -0.000000
+0.372699 -0.000000
+0.372699 0.840000
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_005-UV0-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_005-UV1">
+          <float_array id="Gruppe#161_005-UV1-array" count="54">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.000000 0.000000
+-7.357947 103.489571
+-8.197948 103.551682
+-8.197948 103.489571
+-7.357947 103.551682
+-7.357947 103.427452
+-8.197948 103.427452
+-7.357947 103.365334
+-8.197948 103.365334
+-8.197948 103.303215
+-7.357947 103.303215
+-7.357947 103.241104
+-8.197948 103.241104
+-8.197948 103.178986
+-7.357947 103.178986
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_005-UV1-array" count="27" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Gruppe#161_005-VERTEX">
+          <input semantic="POSITION" source="#Gruppe#161_005-POSITION"/>
+        </vertices>
+        <triangles count="7" material="dbl_Gruppe#161_001"><input semantic="VERTEX" offset="0" source="#Gruppe#161_005-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_005-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_005-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_005-UV1"/><p> 0 0 1 1 1 1 2 2 2 2 3 3 1 3 2 2 0 4 1 1 3 5 4 4 3 6 4 4 0 7 1 1 4 8 5 5 4 9 5 5 0 10 1 1 5 11 6 6 5 12 6 6 0 13 1 1 6 14 7 7 7 15 8 8 0 16 9 9 2 17 0 0 0 18 9 9 7 19 8 8 8 20 10 10</p></triangles>
+        <triangles count="5" material="dbl_Gruppe#161_002"><input semantic="VERTEX" offset="0" source="#Gruppe#161_005-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_005-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_005-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_005-UV1"/><p> 9 21 12 11 10 22 13 11 11 23 14 11 10 24 13 11 9 25 12 11 12 26 15 11 10 27 13 11 12 28 15 11 13 29 16 11 10 30 13 11 13 31 16 11 14 32 17 11 10 33 13 11 14 34 17 11 15 35 18 11</p></triangles>
+        <triangles count="12" material="dbl_Gruppe#161_003"><input semantic="VERTEX" offset="0" source="#Gruppe#161_005-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_005-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_005-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_005-UV1"/><p> 16 36 20 13 17 37 19 14 18 38 21 15 17 39 19 14 16 40 20 13 19 41 22 16 20 42 23 17 18 43 21 15 21 44 24 18 18 45 21 15 20 46 23 17 16 47 20 13 22 48 25 19 21 49 24 18 23 50 26 20 21 51 24 18 22 52 25 19 20 53 23 17 24 54 27 21 22 55 25 19 23 56 26 20 22 57 25 19 24 58 27 21 25 59 28 22 26 60 29 23 24 61 27 21 27 62 30 24 24 63 27 21 26 64 29 23 25 65 28 22 28 66 31 25 26 67 29 23 27 68 30 24 26 69 29 23 28 70 31 25 29 71 32 26</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Gruppe#161_004-lib" name="Gruppe#161_004Mesh">
+      <mesh>
+        <source id="Gruppe#161_004-POSITION">
+          <float_array id="Gruppe#161_004-POSITION-array" count="90">
+-210.000000 60.000000 30.000000
+-210.000000 -51.961524 0.000000
+-210.000000 -60.000000 30.000000
+-210.000000 -30.000000 -21.961524
+-210.000000 0.000000 -30.000000
+-210.000000 30.000000 -21.961524
+-210.000000 51.961525 0.000000
+210.000000 -60.000000 30.000000
+210.000000 60.000000 30.000000
+210.000000 -51.961524 0.000000
+210.000000 60.000000 30.000000
+210.000000 -60.000000 30.000000
+210.000000 -30.000000 -21.961524
+210.000000 0.000000 -30.000000
+210.000000 30.000000 -21.961524
+210.000000 51.961525 0.000000
+210.000000 -51.961524 0.000000
+-210.000000 -60.000000 30.000000
+-210.000000 -51.961524 0.000000
+210.000000 -60.000000 30.000000
+210.000000 -30.000000 -21.961524
+-210.000000 -30.000000 -21.961524
+210.000000 0.000000 -30.000000
+-210.000000 0.000000 -30.000000
+-210.000000 30.000000 -21.961524
+210.000000 30.000000 -21.961524
+210.000000 51.961525 0.000000
+-210.000000 51.961525 0.000000
+-210.000000 60.000000 30.000000
+210.000000 60.000000 30.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_004-POSITION-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_004-Normal0">
+          <float_array id="Gruppe#161_004-Normal0-array" count="216">
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.965926 -0.258819
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.965926 -0.258819
+0.000000 0.965926 -0.258819
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_004-Normal0-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_004-UV0">
+          <float_array id="Gruppe#161_004-UV0-array" count="66">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.016077 0.120000
+0.240000 0.240000
+-0.000000 0.240000
+0.060000 0.032154
+0.120000 -0.000000
+0.180000 0.032154
+0.223923 0.120000
+0.000000 0.000000
+0.062117 0.840000
+0.062117 -0.000000
+0.000000 0.840000
+0.124233 0.840000
+0.124233 -0.000000
+0.186350 0.840000
+0.186350 -0.000000
+0.248466 -0.000000
+0.248466 0.840000
+0.310583 0.840000
+0.310583 -0.000000
+0.372699 -0.000000
+0.372699 0.840000
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_004-UV0-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_004-UV1">
+          <float_array id="Gruppe#161_004-UV1-array" count="54">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.000000 0.000000
+-7.357947 103.489571
+-8.197948 103.551682
+-8.197948 103.489571
+-7.357947 103.551682
+-7.357947 103.427452
+-8.197948 103.427452
+-7.357947 103.365334
+-8.197948 103.365334
+-8.197948 103.303215
+-7.357947 103.303215
+-7.357947 103.241104
+-8.197948 103.241104
+-8.197948 103.178986
+-7.357947 103.178986
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_004-UV1-array" count="27" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Gruppe#161_004-VERTEX">
+          <input semantic="POSITION" source="#Gruppe#161_004-POSITION"/>
+        </vertices>
+        <triangles count="7" material="dbl_Gruppe#161_001_ncl1_1"><input semantic="VERTEX" offset="0" source="#Gruppe#161_004-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_004-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_004-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_004-UV1"/><p> 0 0 1 1 1 1 2 2 2 2 3 3 1 3 2 2 0 4 1 1 3 5 4 4 3 6 4 4 0 7 1 1 4 8 5 5 4 9 5 5 0 10 1 1 5 11 6 6 5 12 6 6 0 13 1 1 6 14 7 7 7 15 8 8 0 16 9 9 2 17 0 0 0 18 9 9 7 19 8 8 8 20 10 10</p></triangles>
+        <triangles count="5" material="dbl_Gruppe#161_002_ncl1_1"><input semantic="VERTEX" offset="0" source="#Gruppe#161_004-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_004-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_004-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_004-UV1"/><p> 9 21 12 11 10 22 13 11 11 23 14 11 10 24 13 11 9 25 12 11 12 26 15 11 10 27 13 11 12 28 15 11 13 29 16 11 10 30 13 11 13 31 16 11 14 32 17 11 10 33 13 11 14 34 17 11 15 35 18 11</p></triangles>
+        <triangles count="12" material="dbl_Gruppe#161_003_ncl1_1"><input semantic="VERTEX" offset="0" source="#Gruppe#161_004-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_004-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_004-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_004-UV1"/><p> 16 36 20 13 17 37 19 14 18 38 21 15 17 39 19 14 16 40 20 13 19 41 22 16 20 42 23 17 18 43 21 15 21 44 24 18 18 45 21 15 20 46 23 17 16 47 20 13 22 48 25 19 21 49 24 18 23 50 26 20 21 51 24 18 22 52 25 19 20 53 23 17 24 54 27 21 22 55 25 19 23 56 26 20 22 57 25 19 24 58 27 21 25 59 28 22 26 60 29 23 24 61 27 21 27 62 30 24 24 63 27 21 26 64 29 23 25 65 28 22 28 66 31 25 26 67 29 23 27 68 30 24 26 69 29 23 28 70 31 25 29 71 32 26</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Gruppe#161_003-lib" name="Gruppe#161_003Mesh">
+      <mesh>
+        <source id="Gruppe#161_003-POSITION">
+          <float_array id="Gruppe#161_003-POSITION-array" count="90">
+-209.999985 60.000000 29.999990
+-209.999985 -51.961524 -0.000010
+-209.999985 -60.000000 29.999990
+-209.999985 -30.000000 -21.961534
+-209.999985 0.000000 -30.000010
+-209.999985 30.000000 -21.961534
+-209.999985 51.961525 -0.000010
+210.000015 -60.000000 29.999990
+210.000015 60.000000 29.999990
+210.000015 -51.961524 -0.000010
+210.000015 60.000000 29.999990
+210.000015 -60.000000 29.999990
+210.000015 -30.000000 -21.961534
+210.000015 0.000000 -30.000010
+210.000015 30.000000 -21.961534
+210.000015 51.961525 -0.000010
+210.000015 -51.961524 -0.000010
+-209.999985 -60.000000 29.999990
+-209.999985 -51.961524 -0.000010
+210.000015 -60.000000 29.999990
+210.000015 -30.000000 -21.961534
+-209.999985 -30.000000 -21.961534
+210.000015 0.000000 -30.000010
+-209.999985 0.000000 -30.000010
+-209.999985 30.000000 -21.961534
+210.000015 30.000000 -21.961534
+210.000015 51.961525 -0.000010
+-209.999985 51.961525 -0.000010
+-209.999985 60.000000 29.999990
+210.000015 60.000000 29.999990
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_003-POSITION-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_003-Normal0">
+          <float_array id="Gruppe#161_003-Normal0-array" count="216">
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.965926 -0.258819
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.965926 -0.258819
+0.000000 0.965926 -0.258819
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_003-Normal0-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_003-UV0">
+          <float_array id="Gruppe#161_003-UV0-array" count="66">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.016077 0.120000
+0.240000 0.240000
+-0.000000 0.240000
+0.060000 0.032154
+0.120000 -0.000000
+0.180000 0.032154
+0.223923 0.120000
+0.000000 0.000000
+0.062117 0.840000
+0.062117 -0.000000
+0.000000 0.840000
+0.124233 0.840000
+0.124233 -0.000000
+0.186350 0.840000
+0.186350 -0.000000
+0.248466 -0.000000
+0.248466 0.840000
+0.310583 0.840000
+0.310583 -0.000000
+0.372699 -0.000000
+0.372699 0.840000
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_003-UV0-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_003-UV1">
+          <float_array id="Gruppe#161_003-UV1-array" count="54">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.000000 0.000000
+-7.357947 103.489571
+-8.197948 103.551682
+-8.197948 103.489571
+-7.357947 103.551682
+-7.357947 103.427452
+-8.197948 103.427452
+-7.357947 103.365334
+-8.197948 103.365334
+-8.197948 103.303215
+-7.357947 103.303215
+-7.357947 103.241104
+-8.197948 103.241104
+-8.197948 103.178986
+-7.357947 103.178986
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_003-UV1-array" count="27" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Gruppe#161_003-VERTEX">
+          <input semantic="POSITION" source="#Gruppe#161_003-POSITION"/>
+        </vertices>
+        <triangles count="7" material="dbl_Gruppe#161_001_ncl1_2"><input semantic="VERTEX" offset="0" source="#Gruppe#161_003-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_003-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_003-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_003-UV1"/><p> 0 0 1 1 1 1 2 2 2 2 3 3 1 3 2 2 0 4 1 1 3 5 4 4 3 6 4 4 0 7 1 1 4 8 5 5 4 9 5 5 0 10 1 1 5 11 6 6 5 12 6 6 0 13 1 1 6 14 7 7 7 15 8 8 0 16 9 9 2 17 0 0 0 18 9 9 7 19 8 8 8 20 10 10</p></triangles>
+        <triangles count="5" material="dbl_Gruppe#161_002_ncl1_2"><input semantic="VERTEX" offset="0" source="#Gruppe#161_003-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_003-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_003-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_003-UV1"/><p> 9 21 12 11 10 22 13 11 11 23 14 11 10 24 13 11 9 25 12 11 12 26 15 11 10 27 13 11 12 28 15 11 13 29 16 11 10 30 13 11 13 31 16 11 14 32 17 11 10 33 13 11 14 34 17 11 15 35 18 11</p></triangles>
+        <triangles count="12" material="dbl_Gruppe#161_003_ncl1_2"><input semantic="VERTEX" offset="0" source="#Gruppe#161_003-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_003-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_003-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_003-UV1"/><p> 16 36 20 13 17 37 19 14 18 38 21 15 17 39 19 14 16 40 20 13 19 41 22 16 20 42 23 17 18 43 21 15 21 44 24 18 18 45 21 15 20 46 23 17 16 47 20 13 22 48 25 19 21 49 24 18 23 50 26 20 21 51 24 18 22 52 25 19 20 53 23 17 24 54 27 21 22 55 25 19 23 56 26 20 22 57 25 19 24 58 27 21 25 59 28 22 26 60 29 23 24 61 27 21 27 62 30 24 24 63 27 21 26 64 29 23 25 65 28 22 28 66 31 25 26 67 29 23 27 68 30 24 26 69 29 23 28 70 31 25 29 71 32 26</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Gruppe#161_002-lib" name="Gruppe#161_002Mesh">
+      <mesh>
+        <source id="Gruppe#161_002-POSITION">
+          <float_array id="Gruppe#161_002-POSITION-array" count="90">
+-210.000000 60.000004 29.999998
+-210.000000 -51.961520 -0.000002
+-210.000000 -59.999996 29.999998
+-210.000000 -29.999996 -21.961526
+-210.000000 0.000004 -30.000002
+-210.000000 30.000004 -21.961526
+-210.000000 51.961529 -0.000002
+210.000000 -59.999996 29.999998
+210.000000 60.000004 29.999998
+210.000000 -51.961520 -0.000002
+210.000000 60.000004 29.999998
+210.000000 -59.999996 29.999998
+210.000000 -29.999996 -21.961526
+210.000000 0.000004 -30.000002
+210.000000 30.000004 -21.961526
+210.000000 51.961529 -0.000002
+210.000000 -51.961520 -0.000002
+-210.000000 -59.999996 29.999998
+-210.000000 -51.961520 -0.000002
+210.000000 -59.999996 29.999998
+210.000000 -29.999996 -21.961526
+-210.000000 -29.999996 -21.961526
+210.000000 0.000004 -30.000002
+-210.000000 0.000004 -30.000002
+-210.000000 30.000004 -21.961526
+210.000000 30.000004 -21.961526
+210.000000 51.961529 -0.000002
+-210.000000 51.961529 -0.000002
+-210.000000 60.000004 29.999998
+210.000000 60.000004 29.999998
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_002-POSITION-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_002-Normal0">
+          <float_array id="Gruppe#161_002-Normal0-array" count="216">
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.965926 -0.258819
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.965926 -0.258819
+0.000000 0.965926 -0.258819
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_002-Normal0-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_002-UV0">
+          <float_array id="Gruppe#161_002-UV0-array" count="66">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.016077 0.120000
+0.240000 0.240000
+-0.000000 0.240000
+0.060000 0.032154
+0.120000 -0.000000
+0.180000 0.032154
+0.223923 0.120000
+0.000000 0.000000
+0.062117 0.840000
+0.062117 -0.000000
+0.000000 0.840000
+0.124233 0.840000
+0.124233 -0.000000
+0.186350 0.840000
+0.186350 -0.000000
+0.248466 -0.000000
+0.248466 0.840000
+0.310583 0.840000
+0.310583 -0.000000
+0.372699 -0.000000
+0.372699 0.840000
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_002-UV0-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_002-UV1">
+          <float_array id="Gruppe#161_002-UV1-array" count="54">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.000000 0.000000
+-7.357947 103.489571
+-8.197948 103.551682
+-8.197948 103.489571
+-7.357947 103.551682
+-7.357947 103.427452
+-8.197948 103.427452
+-7.357947 103.365334
+-8.197948 103.365334
+-8.197948 103.303215
+-7.357947 103.303215
+-7.357947 103.241104
+-8.197948 103.241104
+-8.197948 103.178986
+-7.357947 103.178986
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_002-UV1-array" count="27" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Gruppe#161_002-VERTEX">
+          <input semantic="POSITION" source="#Gruppe#161_002-POSITION"/>
+        </vertices>
+        <triangles count="7" material="dbl_Gruppe#161_001_ncl1_3"><input semantic="VERTEX" offset="0" source="#Gruppe#161_002-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_002-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_002-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_002-UV1"/><p> 0 0 1 1 1 1 2 2 2 2 3 3 1 3 2 2 0 4 1 1 3 5 4 4 3 6 4 4 0 7 1 1 4 8 5 5 4 9 5 5 0 10 1 1 5 11 6 6 5 12 6 6 0 13 1 1 6 14 7 7 7 15 8 8 0 16 9 9 2 17 0 0 0 18 9 9 7 19 8 8 8 20 10 10</p></triangles>
+        <triangles count="5" material="dbl_Gruppe#161_002_ncl1_3"><input semantic="VERTEX" offset="0" source="#Gruppe#161_002-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_002-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_002-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_002-UV1"/><p> 9 21 12 11 10 22 13 11 11 23 14 11 10 24 13 11 9 25 12 11 12 26 15 11 10 27 13 11 12 28 15 11 13 29 16 11 10 30 13 11 13 31 16 11 14 32 17 11 10 33 13 11 14 34 17 11 15 35 18 11</p></triangles>
+        <triangles count="12" material="dbl_Gruppe#161_003_ncl1_3"><input semantic="VERTEX" offset="0" source="#Gruppe#161_002-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_002-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_002-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_002-UV1"/><p> 16 36 20 13 17 37 19 14 18 38 21 15 17 39 19 14 16 40 20 13 19 41 22 16 20 42 23 17 18 43 21 15 21 44 24 18 18 45 21 15 20 46 23 17 16 47 20 13 22 48 25 19 21 49 24 18 23 50 26 20 21 51 24 18 22 52 25 19 20 53 23 17 24 54 27 21 22 55 25 19 23 56 26 20 22 57 25 19 24 58 27 21 25 59 28 22 26 60 29 23 24 61 27 21 27 62 30 24 24 63 27 21 26 64 29 23 25 65 28 22 28 66 31 25 26 67 29 23 27 68 30 24 26 69 29 23 28 70 31 25 29 71 32 26</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Gruppe#161_001-lib" name="Gruppe#161_001Mesh">
+      <mesh>
+        <source id="Gruppe#161_001-POSITION">
+          <float_array id="Gruppe#161_001-POSITION-array" count="90">
+-210.000000 59.999992 30.000006
+-210.000000 -51.961532 0.000006
+-210.000000 -60.000008 30.000006
+-210.000000 -30.000008 -21.961518
+-210.000000 -0.000008 -29.999994
+-210.000000 29.999992 -21.961518
+-210.000000 51.961517 0.000006
+210.000000 -60.000008 30.000006
+210.000000 59.999992 30.000006
+210.000000 -51.961532 0.000006
+210.000000 59.999992 30.000006
+210.000000 -60.000008 30.000006
+210.000000 -30.000008 -21.961518
+210.000000 -0.000008 -29.999994
+210.000000 29.999992 -21.961518
+210.000000 51.961517 0.000006
+210.000000 -51.961532 0.000006
+-210.000000 -60.000008 30.000006
+-210.000000 -51.961532 0.000006
+210.000000 -60.000008 30.000006
+210.000000 -30.000008 -21.961518
+-210.000000 -30.000008 -21.961518
+210.000000 -0.000008 -29.999994
+-210.000000 -0.000008 -29.999994
+-210.000000 29.999992 -21.961518
+210.000000 29.999992 -21.961518
+210.000000 51.961517 0.000006
+-210.000000 51.961517 0.000006
+-210.000000 59.999992 30.000006
+210.000000 59.999992 30.000006
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_001-POSITION-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_001-Normal0">
+          <float_array id="Gruppe#161_001-Normal0-array" count="216">
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.866025 -0.500000
+0.000000 -0.965926 -0.258819
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 -0.500000 -0.866025
+0.000000 -0.866025 -0.500000
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 -0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.500000 -0.866025
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.866025 -0.500000
+0.000000 0.500000 -0.866025
+0.000000 0.965926 -0.258819
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.866025 -0.500000
+0.000000 0.965926 -0.258819
+0.000000 0.965926 -0.258819
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_001-Normal0-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_001-UV0">
+          <float_array id="Gruppe#161_001-UV0-array" count="66">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.016077 0.120000
+0.240000 0.240000
+-0.000000 0.240000
+0.060000 0.032154
+0.120000 -0.000000
+0.180000 0.032154
+0.223923 0.120000
+0.000000 0.000000
+0.062117 0.840000
+0.062117 -0.000000
+0.000000 0.840000
+0.124233 0.840000
+0.124233 -0.000000
+0.186350 0.840000
+0.186350 -0.000000
+0.248466 -0.000000
+0.248466 0.840000
+0.310583 0.840000
+0.310583 -0.000000
+0.372699 -0.000000
+0.372699 0.840000
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_001-UV0-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gruppe#161_001-UV1">
+          <float_array id="Gruppe#161_001-UV1-array" count="54">
+0.000000 0.000000
+-0.240000 0.240000
+-0.016077 0.120000
+0.000000 0.240000
+-0.060000 0.032154
+-0.120000 -0.000000
+-0.180000 0.032154
+-0.223923 0.120000
+0.840000 -0.000000
+0.000000 0.480000
+0.840000 0.480000
+0.000000 0.000000
+0.000000 0.000000
+-7.357947 103.489571
+-8.197948 103.551682
+-8.197948 103.489571
+-7.357947 103.551682
+-7.357947 103.427452
+-8.197948 103.427452
+-7.357947 103.365334
+-8.197948 103.365334
+-8.197948 103.303215
+-7.357947 103.303215
+-7.357947 103.241104
+-8.197948 103.241104
+-8.197948 103.178986
+-7.357947 103.178986
+</float_array>
+          <technique_common>
+            <accessor source="#Gruppe#161_001-UV1-array" count="27" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Gruppe#161_001-VERTEX">
+          <input semantic="POSITION" source="#Gruppe#161_001-POSITION"/>
+        </vertices>
+        <triangles count="7" material="dbl_Gruppe#161_001_ncl1_4"><input semantic="VERTEX" offset="0" source="#Gruppe#161_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_001-UV1"/><p> 0 0 1 1 1 1 2 2 2 2 3 3 1 3 2 2 0 4 1 1 3 5 4 4 3 6 4 4 0 7 1 1 4 8 5 5 4 9 5 5 0 10 1 1 5 11 6 6 5 12 6 6 0 13 1 1 6 14 7 7 7 15 8 8 0 16 9 9 2 17 0 0 0 18 9 9 7 19 8 8 8 20 10 10</p></triangles>
+        <triangles count="5" material="dbl_Gruppe#161_002_ncl1_4"><input semantic="VERTEX" offset="0" source="#Gruppe#161_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_001-UV1"/><p> 9 21 12 11 10 22 13 11 11 23 14 11 10 24 13 11 9 25 12 11 12 26 15 11 10 27 13 11 12 28 15 11 13 29 16 11 10 30 13 11 13 31 16 11 14 32 17 11 10 33 13 11 14 34 17 11 15 35 18 11</p></triangles>
+        <triangles count="12" material="dbl_Gruppe#161_003_ncl1_4"><input semantic="VERTEX" offset="0" source="#Gruppe#161_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Gruppe#161_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Gruppe#161_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Gruppe#161_001-UV1"/><p> 16 36 20 13 17 37 19 14 18 38 21 15 17 39 19 14 16 40 20 13 19 41 22 16 20 42 23 17 18 43 21 15 21 44 24 18 18 45 21 15 20 46 23 17 16 47 20 13 22 48 25 19 21 49 24 18 23 50 26 20 21 51 24 18 22 52 25 19 20 53 23 17 24 54 27 21 22 55 25 19 23 56 26 20 22 57 25 19 24 58 27 21 25 59 28 22 26 60 29 23 24 61 27 21 27 62 30 24 24 63 27 21 26 64 29 23 25 65 28 22 28 66 31 25 26 67 29 23 27 68 30 24 26 69 29 23 28 70 31 25 29 71 32 26</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="3d-model" name="3d-model">
+      <node name="Gruppe#161_005" id="Gruppe#161_005" layer="Layer0" sid="Gruppe#161_005"><matrix sid="matrix">1.000000 -0.000000 -0.000000 -12.452988 0.000000 -0.866026 0.500000 66.961525 -0.000000 -0.500000 -0.866026 56.311111 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Gruppe#161_005-lib"><bind_material><technique_common><instance_material symbol="dbl_Gruppe#161_001" target="#dbl_Gruppe#161_001"/><instance_material symbol="dbl_Gruppe#161_002" target="#dbl_Gruppe#161_002"/><instance_material symbol="dbl_Gruppe#161_003" target="#dbl_Gruppe#161_003"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Gruppe#161_004" id="Gruppe#161_004" layer="Layer0" sid="Gruppe#161_004"><matrix sid="matrix">1.000000 0.000000 0.000000 -12.452988 0.000000 0.000000 1.000000 66.961540 0.000000 -1.000000 0.000000 204.311111 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Gruppe#161_004-lib"><bind_material><technique_common><instance_material symbol="dbl_Gruppe#161_001_ncl1_1" target="#dbl_Gruppe#161_001_ncl1_1"/><instance_material symbol="dbl_Gruppe#161_002_ncl1_1" target="#dbl_Gruppe#161_002_ncl1_1"/><instance_material symbol="dbl_Gruppe#161_003_ncl1_1" target="#dbl_Gruppe#161_003_ncl1_1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Gruppe#161_003" id="Gruppe#161_003" layer="Layer0" sid="Gruppe#161_003"><matrix sid="matrix">0.181969 -0.851530 0.491716 -48.419662 -0.000656 0.499959 0.866049 151.031403 -0.983304 -0.157916 0.090418 -45.629700 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Gruppe#161_003-lib"><bind_material><technique_common><instance_material symbol="dbl_Gruppe#161_001_ncl1_2" target="#dbl_Gruppe#161_001_ncl1_2"/><instance_material symbol="dbl_Gruppe#161_002_ncl1_2" target="#dbl_Gruppe#161_002_ncl1_2"/><instance_material symbol="dbl_Gruppe#161_003_ncl1_2" target="#dbl_Gruppe#161_003_ncl1_2"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Gruppe#161_002" id="Gruppe#161_002" layer="Layer0" sid="Gruppe#161_002"><matrix sid="matrix">0.181969 -0.851530 0.491716 112.184341 -0.000656 0.499959 0.866049 151.102570 -0.983304 -0.157916 0.090418 -12.428055 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Gruppe#161_002-lib"><bind_material><technique_common><instance_material symbol="dbl_Gruppe#161_001_ncl1_3" target="#dbl_Gruppe#161_001_ncl1_3"/><instance_material symbol="dbl_Gruppe#161_002_ncl1_3" target="#dbl_Gruppe#161_002_ncl1_3"/><instance_material symbol="dbl_Gruppe#161_003_ncl1_3" target="#dbl_Gruppe#161_003_ncl1_3"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Gruppe#161_001" id="Gruppe#161_001" layer="Layer0" sid="Gruppe#161_001"><matrix sid="matrix">1.000000 0.000000 0.000000 12.452988 -0.000000 0.500000 0.866025 66.921944 -0.000000 -0.866025 0.500000 -113.336121 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Gruppe#161_001-lib"><bind_material><technique_common><instance_material symbol="dbl_Gruppe#161_001_ncl1_4" target="#dbl_Gruppe#161_001_ncl1_4"/><instance_material symbol="dbl_Gruppe#161_002_ncl1_4" target="#dbl_Gruppe#161_002_ncl1_4"/><instance_material symbol="dbl_Gruppe#161_003_ncl1_4" target="#dbl_Gruppe#161_003_ncl1_4"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#3d-model"></instance_visual_scene>
+  </scene>
+</COLLADA>
