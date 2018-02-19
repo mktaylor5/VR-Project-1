@@ -18,6 +18,21 @@ The fox sitting next to the couch can also be interacted with. When clicked, an 
 There is also a dynamic model on the bar counter in the corner. Clicking on the drink will slide it across the counter top.
 
 
+### Visuals
+![alt text](screenshots/overview.png "Overview")
+
+![alt text](screenshots/living.png "Living Room")
+
+![alt text](screenshots/tv.png "Living Room - TV")
+
+![alt text](screenshots/dining.png "Dining Room")
+
+![alt text](screenshots/kitchen.png "Kitchen")
+
+![alt text](screenshots/front_door.png "Front Door")
+
+
+
 ### Sources
 Armchair: https://free3d.com/3d-model/chair-52328.html <br />
 Art: https://wallpaperscraft.com/image/ocean_sky_light_82603_2560x1600.jpg <br />

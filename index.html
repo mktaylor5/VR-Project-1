@@ -18,7 +18,7 @@
     <a-sky color="#ECECEC"></a-sky>
     <!--Camera-->
     <a-entity position="-21.328 1.5 12">
-        <a-camera universal-controls="" position="0 1.8 0" rotation="-16.84495917684621 -173.0332541295084 0" camera="" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
+        <a-camera universal-controls="" position="32 1.8 -3" rotation="0 90 0" camera="" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
             <a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75">
             </a-entity>
         </a-camera>
@@ -245,10 +245,10 @@
     <a-entity id="bar_area" obj-model="mtl:models/bar/materials.mtl;obj:models/bar/model.obj" position="-24.243 3.021 18.875" scale="1.5 1.5 1.5"></a-entity>
 
     <!--Drink-->
-    <a-box color="tomato" opacity="0.5" position="45 0 6" depth="2" height="2" width="2" class="intersectable">
-        <a-entity id="bar_drink" obj-model="mtl:models/drink/GlassOfBeer.mtl;obj:models/drink/GlassOfBeer.obj" position="-28.953 2.976 13.868" scale="0.2 0.2 0.2"></a-entity>
-        <a-animation begin="click" attribute="position" from="-28.953 2.976 13.868" to= "-22.643 2.976 13.868" dur="3000"></a-animation>
-    </a-box>
+    <!--<a-box color="tomato" opacity="0.5" position="45 0 6" depth="2" height="2" width="2" class="intersectable">-->
+        <!--<a-entity id="bar_drink" obj-model="mtl:models/drink/GlassOfBeer.mtl;obj:models/drink/GlassOfBeer.obj" position="-28.953 2.976 13.868" scale="0.2 0.2 0.2"></a-entity>-->
+        <!--<a-animation begin="click" attribute="position" from="-28.953 2.976 13.868" to= "-22.643 2.976 13.868" dur="3000"></a-animation>-->
+    <!--</a-box>-->
 
     <a-box color="tomato" opacity="0" position="-28.718 2.677 13.906" depth="2" height="2" width="2" class="intersectable" rotation="0.01 0 0" geometry="depth:0.67;width:0.64;height:1.61" id="animate_drink">
         <a-entity id="bar_drink" obj-model="mtl:models/drink/GlassOfBeer.mtl;obj:models/drink/GlassOfBeer.obj" position="0.024 0.121 -0.019" scale="0.2 0.2 0.2"></a-entity>
