@@ -36,8 +36,8 @@
     <!--<a-entity position="8.555 6.27 -8.064" id="light2" light=""></a-entity>-->
 
     <!-- Ceiling -->
-    <!--<a-entity id="ceiling" static-body geometry="primitive: box; depth: 50; height: 0.1; width: 75" position="0 14 5" material="shader: flat; side: double; opacity: 1;-->
-    <!--color: grey"></a-entity>-->
+    <a-entity id="ceiling" static-body geometry="primitive: box; depth: 50; height: 0.1; width: 75" position="0 14 5" material="shader: flat; side: double; opacity: 1;-->
+    <!--color: grey"></a-entity>
 
     <!-- Floor -->
     <a-entity static-body="" geometry="depth:40;width:60;height:0.1" position="-7.861 -0.5 0.488" material="shader:flat;side:double;src:images/floor.jpg;repeat:12 5"></a-entity>
@@ -112,7 +112,7 @@
         <a-entity geometry="primitive:plane" position="0 0.9278888888888888 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
-        <a-box id="fireplace" material="opacity:0.5;color:tomato;transparent:true" depth="2" height="2" width="2" sound="on:click;src:assets/fireplace.wav" class="intersectable" position="0 0.94 0" geometry="height:2.39;width:1.88;depth:3"></a-box>
+        <a-box id="fireplace" material="opacity:0;color:tomato;transparent:true" depth="2" height="2" width="2" sound="on:click;src:assets/fireplace.wav" class="intersectable" position="0 0.94 0" geometry="height:2.39;width:1.88;depth:3"></a-box>
         <a-entity geometry="primitive:plane" position="0 0.9352064999999998 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
