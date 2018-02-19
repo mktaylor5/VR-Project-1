@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Audio</title>
+</head>
+<body>
+
+<script>
+    function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+    function play_fire(){
+        var audio = document.getElementById("fireaudio");
+        audio.play();
+    }
+</script>
+
+<input type="button" value="PLAY"  onclick="play()">
+<audio id="audio" src="assets/short_fox_yip.mp3" ></audio>
+
+<input type="button" value="PLAY"  onclick="play_fire()">
+<audio id="fireplace" src="assets/fireplace.wav" ></audio>
+
+</body>
+</html>
