@@ -1,12 +1,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
-    <!--<script src="js/aframe.min.js"></script>-->
     <script src="https://aframe.io/releases/0.7.0/aframe.js"></script>
-    <!--<script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>-->
 
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>
 
 </head>
-<body class="a-body ">
+
+<body>
 
 <a-scene>
     <a-assets>
@@ -20,7 +19,8 @@
     <!--Camera-->
     <a-entity position="-21.328 1.5 12">
         <a-camera universal-controls="" position="0 1.8 0" rotation="-16.84495917684621 -173.0332541295084 0" camera="" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
-            <a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75"></a-entity>
+            <a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75">
+            </a-entity>
         </a-camera>
     </a-entity>
 
@@ -32,12 +32,14 @@
     <a-box material="opacity:0;color:tomato;transparent:true" depth="2" height="2" width="2" sound="on:click;src:assets/short_fox_yip.mp3" class="intersectable" position="-7.493 0.799 -6.378" geometry="height:2.39;width:1.88;depth:3"></a-box>
 
     <!--Lighting-->
-    <!--<a-entity position="-15.749 6.256 9.487" id="light1" light="angle:89.37"></a-entity>-->
-    <!--<a-entity position="8.555 6.27 -8.064" id="light2" light=""></a-entity>-->
+    <!--<a-entity id="lamp" light="intensity:0.3;castShadow=true" position="0 0 0"></a-entity>-->
+
+    <!--Default Lights-->
+    <!--<a-entity light="color:#BBB;type:ambient" data-aframe-default-light="" aframe-injected="" id="ambient"></a-entity>-->
+    <!--<a-entity light="intensity:0.6;castShadow:true" position="-0.5 1 1" data-aframe-default-light="" aframe-injected="" id="directional"></a-entity>-->
 
     <!-- Ceiling -->
-    <a-entity id="ceiling" static-body geometry="primitive: box; depth: 50; height: 0.1; width: 75" position="0 14 5" material="shader: flat; side: double; opacity: 1;
-    color: grey"></a-entity>
+    <a-entity id="ceiling" static-body geometry="primitive: box; depth: 50; height: 0.1; width: 75" position="0 14 5" material="shader: flat; side: double; opacity: 1; color: grey"></a-entity>
 
     <!-- Floor -->
     <a-entity static-body="" geometry="depth:40;width:60;height:0.1" position="-7.861 -0.5 0.488" material="shader:flat;side:double;src:images/floor.jpg;repeat:12 5"></a-entity>
@@ -150,7 +152,8 @@
         <a-entity id="chair_back1" position="-1.201 1.219 5.542" geometry="depth:0.05;height:2;width:1.6;segmentsHeight:9" material="roughness:1;src:images/white_table.jpg" scale="0.9 1 5"></a-entity>
         <a-entity id="chair_bot1" position="-1.203 0.368 6.123" geometry="depth:1.42;height:0.32;width:1.45" material="color:#fff;roughness:1;src:images/white_table.jpg"></a-entity>
         <a-entity id="chair1_leg1" position="-0.59 -0.291 6.121" geometry="depth:0.16;height:1.84;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="45 0 0"></a-entity>
-        <a-entity id="chair1_leg2" position="-0.612 -0.338 6.125" geometry="depth:0.16;height:1.8399999999999999;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="-45 0 0"></a-entity>
+        <a-entity id="chair1_leg2" position="-0.612 -0.338 6.125" geometry="depth:0.16;height:1.84
+        ;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="-45 0 0"></a-entity>
         <a-entity id="chair1_leg3" position="-1.806 -0.291 6.071" geometry="depth:0.16;height:1.84;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="45 0 0"></a-entity>
         <a-entity id="chair1_leg4" position="-1.83 -0.338 6.125" geometry="depth:0.16;height:1.8399999999999999;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="-45 0 0"></a-entity>
     </a-entity>
@@ -232,16 +235,27 @@
     <a-entity id="barstool3" obj-model="mtl:models/barstool/La Palma Stool.mtl;obj:models/barstool/La Palma Stool.obj" position="-3.111 -0.447 11.011" scale="0.08 0.06 0.08"></a-entity>
 
     <!--Fridge-->
-    <a-entity id="fridge" obj-model="mtl:models/fridge/materials.mtl;obj:models/fridge/model.obj" position="4.683 3.528 18.282" rotation="0 172.84 2.5500000000000003" scale="3.2 3.33 2.5"></a-entity>
+    <a-entity id="fridge" obj-model="mtl:models/fridge/materials.mtl;obj:models/fridge/model.obj" position="4.683 3.528 18.282" rotation="0 172.84 2.55" scale="3.2 3.33 2.5"></a-entity>
 
     <!--Dishwasher-->
     <a-entity id="dishwasher" obj-model="mtl:models/dishwasher/Dishwasher_1292.mtl;obj:models/dishwasher/Dishwasher_1292.obj" position="-5.138 -0.386 19.004" rotation="0 180 0" scale="0.15 0.15 0.15"></a-entity>
     <a-entity position="-5.018 2.887 19.185" id="counter_dish" geometry="width:2.61;depth:2.08;height:0.1" velocity="" material="color:#e8fdff"></a-entity>
 
+    <!--Bar-->
+    <a-entity id="bar_area" obj-model="mtl:models/bar/materials.mtl;obj:models/bar/model.obj" position="-24.243 3.021 18.875" scale="1.5 1.5 1.5"></a-entity>
+
+    <!--Drink-->
+    <a-box color="tomato" opacity="0.5" position="45 0 6" depth="2" height="2" width="2" class="intersectable">
+        <a-entity id="bar_drink" obj-model="mtl:models/drink/GlassOfBeer.mtl;obj:models/drink/GlassOfBeer.obj" position="-28.953 2.976 13.868" scale="0.2 0.2 0.2"></a-entity>
+        <a-animation begin="click" attribute="position" from="-28.953 2.976 13.868" to= "-22.643 2.976 13.868" dur="3000"></a-animation>
+    </a-box>
+
+    <a-box color="tomato" opacity="0" position="-28.718 2.677 13.906" depth="2" height="2" width="2" class="intersectable" rotation="0.01 0 0" geometry="depth:0.67;width:0.64;height:1.61" id="animate_drink">
+        <a-entity id="bar_drink" obj-model="mtl:models/drink/GlassOfBeer.mtl;obj:models/drink/GlassOfBeer.obj" position="0.024 0.121 -0.019" scale="0.2 0.2 0.2"></a-entity>
+        <a-animation begin="click" attribute="position" from="-28.718 2.677 13.906" to="-22.556 2.677 13.906" dur="3000"></a-animation>
+    </a-box>
+
 </a-scene>
 
-
-
-
-
-</body></html>
+</body>
+</html>
