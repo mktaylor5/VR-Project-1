@@ -19,9 +19,9 @@
     <a-sky color="#ECECEC"></a-sky>
     <!--Camera-->
     <a-entity position="-21.328 1.5 12">
-        <a-camera universal-controls="" position="0 1.8 0" rotation="-16.84495917684621 -173.0332541295084 0" camera="" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
-            <a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75"></a-entity>
-        </a-camera>
+        <!--<a-camera universal-controls="" position="0 1.8 0" rotation="-16.84495917684621 -173.0332541295084 0" camera="" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">-->
+            <!--<a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75"></a-entity>-->
+        <!--</a-camera>-->
     </a-entity>
 
     <!--Couch-->
@@ -46,10 +46,10 @@
     <a-entity geometry="width:61;depth:0.6" position="-7.439 13.5 -19.7" material="roughness:1;color:#707070"></a-entity>
     <a-entity geometry="width:62;depth:0.6" position="-7.103 13.5 20.245" material="roughness:1;color:#707070"></a-entity>
     <a-entity geometry="depth:0.6;width:42" position="16.124 13.5 0.956" rotation="0 90 0" material="color:#707070;roughness:1" id="trim_door"></a-entity>
-    <a-entity geometry="width:42;depth:0.6" position="-37.7 13.5 0.822" rotation="0 90 0" material="roughness:1;color:#707070"></a-entity>
+    <a-entity geometry="depth:0.6;width:42" position="-30.68 13.5 0.822" rotation="0 90 0" material="color:#707070;roughness:1" id="trim_glass"></a-entity>
 
     <!--Walls #b0b0b0-->
-    <a-entity static-body="" geometry="width:42;height:14" position="-38 6.5 1.249" rotation="0 90 0" material="normalTextureRepeat:2 1;repeat:2 1;roughness:1;src:images/walltexture.jpg"></a-entity>
+    <a-entity static-body="" geometry="height:14;width:42" position="-30.957 6.5 1.249" rotation="0 90 0" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_glass"></a-entity>
     <a-entity static-body="" geometry="height:14;width:41" position="16.388 6.5 0.862" rotation="0 90 0" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_door"></a-entity>
     <!--<a-entity static-body="" geometry="width:60;height:14" position="-8.323 6.5 -20" material="roughness:1;src:images/walltexture.jpg"></a-entity>-->
     <a-entity static-body="" geometry="height:14;width:60" position="-8.323 6.5 -20" material="normalTextureRepeat:2 1;repeat:2 1;roughness:1;src:images/walltexture.jpg"></a-entity>
@@ -165,8 +165,28 @@
         <a-entity id="chair2_leg4" position="-1.83 -0.338 6.125" geometry="depth:0.16;height:1.8399999999999999;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="-45 0 0"></a-entity>
     </a-entity>
 
+    <!--Chair 3-->
+    <a-entity id="chair3" static-body="" geometry="depth:0;height:0;width:0" position="-8.32 0.48 -13.383" material="opacity:0;color:red" scale="1.2 1.2 1.2" rotation="0 -45 0">
+        <a-entity id="chair_back1" position="-1.201 1.219 5.542" geometry="depth:0.05;height:2;width:1.6;segmentsHeight:9" material="roughness:1;src:images/white_table.jpg" scale="0.9 1 5"></a-entity>
+        <a-entity id="chair_bot1" position="-1.203 0.368 6.123" geometry="depth:1.42;height:0.32;width:1.45" material="color:#fff;roughness:1;src:images/white_table.jpg"></a-entity>
+        <a-entity id="chair1_leg1" position="-0.59 -0.291 6.121" geometry="depth:0.16;height:1.84;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="45 0 0"></a-entity>
+        <a-entity id="chair1_leg2" position="-0.612 -0.338 6.125" geometry="depth:0.16;height:1.8399999999999999;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="-45 0 0"></a-entity>
+        <a-entity id="chair1_leg3" position="-1.806 -0.291 6.071" geometry="depth:0.16;height:1.84;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="45 0 0"></a-entity>
+        <a-entity id="chair1_leg4" position="-1.83 -0.338 6.125" geometry="depth:0.16;height:1.8399999999999999;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="-45 0 0"></a-entity>
+    </a-entity>
+
+    <!--Chair 4-->
+    <a-entity id="chair4" static-body="" geometry="depth:0;height:0;width:0" position="-10.503 0.48 1.915" material="opacity:0;color:red" scale="1.2 1.2 1.2" rotation="0 -135 0">
+        <a-entity id="chair_back2" position="-1.2 1.219 5.543" geometry="depth:0.05;height:2;width:1.6;segmentsHeight:9" material="roughness:1;src:images/white_table.jpg" scale="0.9 1 5"></a-entity>
+        <a-entity id="chair_bot2" position="-1.203 0.368 6.123" geometry="depth:1.42;height:0.32;width:1.45" material="color:#fff;roughness:1;src:images/white_table.jpg"></a-entity>
+        <a-entity id="chair2_leg1" position="-0.59 -0.291 6.121" geometry="depth:0.16;height:1.84;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="45 0 0"></a-entity>
+        <a-entity id="chair2_leg2" position="-0.612 -0.338 6.125" geometry="depth:0.16;height:1.8399999999999999;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="-45 0 0"></a-entity>
+        <a-entity id="chair2_leg3" position="-1.806 -0.291 6.071" geometry="depth:0.16;height:1.84;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="45 0 0"></a-entity>
+        <a-entity id="chair2_leg4" position="-1.83 -0.338 6.125" geometry="depth:0.16;height:1.8399999999999999;width:0.16" material="repeat:1 2;roughness:1;src:images/chrome.jpg" rotation="-45 0 0"></a-entity>
+    </a-entity>
+
     <!--Beach Window-->
-    <a-entity id="window_1" static-body="" position="-37.831 9 -5.183">
+    <a-entity id="window_1" static-body="" position="-30.749 9 -5.183">
         <a-entity id="window1_top" position="0.05 0 0" geometry="depth:21;height:1.02" material="color:#616161"></a-entity>
         <a-entity id="window1_top2" position="0.05 -1.264 7.9" geometry="depth:3.5;height:0.3;width:1.09" material="color:#616161"></a-entity>
         <a-entity id="window1_top2-3" position="0.05 -1.264 -7.685" geometry="depth:3.5;height:0.3;width:1.09" material="color:#616161"></a-entity>
@@ -176,12 +196,13 @@
         <a-entity id="window1_side2" position="0.05 -5.44 -9.394" geometry="depth:10;height:0.6" material="color:#616161" rotation="90 0 0"></a-entity>
         <a-entity id="window1_mid1" position="0.05 -5.44 -5.966" geometry="depth:10;height:0.6" material="color:#616161" rotation="90 0 0"></a-entity>
         <a-entity id="window1_mid2" position="0.05 -5.44 6.19" geometry="depth:10;height:0.6" material="color:#616161" rotation="90 0 0"></a-entity>
-        <a-entity id="window1_mid2-2" position="0.05 -5.44 6.924" geometry="height:0.3;depth:10" material="color:#616161" rotation="90 0 0"></a-entity>
+        <a-entity id="window1_mid2-2" position="0.05 -5.44 6.924" geometry="depth:10;height:0.3" material="color:#616161" rotation="90 0 0"></a-entity>
         <a-entity id="window1_mid2-4" position="0.05 -5.44 -8.644" geometry="depth:10;height:0.3" material="color:#616161" rotation="90 0 0"></a-entity>
         <a-entity id="window1_mid2-5" position="0.05 -5.44 -6.692" geometry="depth:10;height:0.3" material="color:#616161" rotation="90 0 0"></a-entity>
         <a-entity id="window1_mid2-3" position="0.05 -5.44 8.748" geometry="depth:10;height:0.3" material="color:#616161" rotation="90 0 0"></a-entity>
         <a-entity id="window1_side1cover" position="0.05 -7.872 7.932" geometry="depth:3.334;height:3.09" material="color:#616161" rotation="90 0 0"></a-entity>
-        <a-entity id="window1_side1cover-2" position="0.235 -7.84 7.858" geometry="depth:3.334;height:3.28;width:0.97" material="color:#868686" rotation="90 0 0" scale="0.8 0.8 0.8"></a-entity><a-entity id="window1_side2cover-1" position="0.235 -7.84 -7.713" geometry="depth:3.334;height:3.28;width:0.97" material="color:#868686" rotation="90 0 0" scale="0.8 0.8 0.8"></a-entity>
+        <a-entity id="window1_side1cover-2" position="0.235 -7.84 7.858" geometry="depth:3.334;height:3.28;width:0.97" material="color:#868686" rotation="90 0 0" scale="0.8 0.8 0.8"></a-entity>
+        <a-entity id="window1_side2cover-1" position="0.235 -7.84 -7.713" geometry="depth:3.334;height:3.28;width:0.97" material="color:#868686" rotation="90 0 0" scale="0.8 0.8 0.8"></a-entity>
         <a-entity id="window1_side2cover" position="0.05 -7.872 -7.685" geometry="depth:3.334;height:3.09" material="color:#616161" rotation="90 0 0"></a-entity>
         <a-entity id="window1_beach" position="0.481 -5.186 0.07" geometry="primitive:plane;height:10;width:19.03" material="src:images/beach.jpg" rotation="0 90 0"></a-entity>
     </a-entity>
