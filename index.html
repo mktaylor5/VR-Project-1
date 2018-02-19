@@ -19,7 +19,7 @@
     <a-sky color="#ECECEC"></a-sky>
     <!--Camera-->
     <a-entity position="-21.328 1.5 12">
-        <a-camera universal-controls="" position="0 2 0" rotation="-16.84495917684621 -173.0332541295084 0" camera="" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
+        <a-camera universal-controls="" position="0 1.8 0" rotation="-16.84495917684621 -173.0332541295084 0" camera="" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
             <a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75"></a-entity>
         </a-camera>
     </a-entity>
@@ -45,15 +45,23 @@
     <!-- Trim -->
     <a-entity geometry="width:61;depth:0.6" position="-7.439 13.5 -19.7" material="roughness:1;color:#707070"></a-entity>
     <a-entity geometry="width:62;depth:0.6" position="-7.103 13.5 20.245" material="roughness:1;color:#707070"></a-entity>
-    <a-entity geometry="width:42;depth:0.6" position="21.499 13.5 0.956" rotation="0 90 0" material="roughness:1;color:#707070"></a-entity>
+    <a-entity geometry="depth:0.6;width:42" position="16.124 13.5 0.956" rotation="0 90 0" material="color:#707070;roughness:1" id="trim_door"></a-entity>
     <a-entity geometry="width:42;depth:0.6" position="-37.7 13.5 0.822" rotation="0 90 0" material="roughness:1;color:#707070"></a-entity>
 
     <!--Walls #b0b0b0-->
     <a-entity static-body="" geometry="width:42;height:14" position="-38 6.5 1.249" rotation="0 90 0" material="normalTextureRepeat:2 1;repeat:2 1;roughness:1;src:images/walltexture.jpg"></a-entity>
-    <a-entity static-body="" geometry="width:41;height:14" position="21.851 6.5 0.862" rotation="0 90 0" material="normalTextureRepeat:2 1;repeat:2 1;roughness:1;src:images/walltexture.jpg"></a-entity>
+    <a-entity static-body="" geometry="height:14;width:41" position="16.388 6.5 0.862" rotation="0 90 0" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_door"></a-entity>
     <!--<a-entity static-body="" geometry="width:60;height:14" position="-8.323 6.5 -20" material="roughness:1;src:images/walltexture.jpg"></a-entity>-->
     <a-entity static-body="" geometry="height:14;width:60" position="-8.323 6.5 -20" material="normalTextureRepeat:2 1;repeat:2 1;roughness:1;src:images/walltexture.jpg"></a-entity>
-    <a-entity static-body="" geometry="width:60;height:14" position="-8.415 6.5 20.659" material="normalTextureRepeat:2 1;repeat:2 1;roughness:1;src:images/walltexture.jpg"></a-entity>
+    <a-entity static-body="" geometry="height:14;width:60" position="-8.415 6.5 20.659" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_kitchen"></a-entity>
+
+    <!--Door-->
+    <a-entity obj-model="mtl:models/whitedoor/CHAHIN_DOOR.mtl;obj:models/whitedoor/CHAHIN_DOOR.obj" position="16.009 3.372 13.511" class="intersectable" scale="2 2 2" id="whitedoor"></a-entity>
+    <a-entity obj-model="mtl:models/pottedplant/materials.mtl;obj:models/pottedplant/model.obj" position="14.392 3.012 18.415" class="intersectable" scale="2 2 2" id="pottedplant" rotation="-1 180 -5.2"></a-entity>
+
+    <!--Painting-->
+    <a-entity id="artwork" position="15.715 5.697 -7.47" geometry="depth:0;height:1.91;width:3.17" material="shader:flat;src:images/artwork.jpg" scale="2.5 2.5 2.5" rotation="0 90 0"></a-entity>
+    <a-entity id="artwork-frame" position="15.813 5.697 -7.47" geometry="width:3.37;height:2.11;depth:0" material="shader:flat;src:images/dark_hardwood.jpg" scale="2.5 2.5 2.5" rotation="0 90 0"></a-entity>
 
     <!--Coffee Table-->
     <a-entity id="coffee_table" static-body="" geometry="depth:8;height:0.32;width:3" position="-0.236 0.86 -10.381" rotation="0 90 0" material="roughness:1;src:images/marble3.jpg" scale="0.8 0.8 0.8">
@@ -178,6 +186,36 @@
         <a-entity id="window1_beach" position="0.481 -5.186 0.07" geometry="primitive:plane;height:10;width:19.03" material="src:images/beach.jpg" rotation="0 90 0"></a-entity>
     </a-entity>
 
+    <!--Kitchen-->
+    <a-entity id="kitchen_counter" obj-model="mtl:models/kitchen/materials.mtl;obj:models/kitchen/model.obj" position="-0.819 3.152 19.348" scale="1.5 1.5 1.5"></a-entity>
+
+    <a-entity id="kitchen" static-body="" position="0 4.829 13.68">
+        <a-entity id="oven" position="-0.827 -3.731 5.472" geometry="depth:2;height:2.5;width:2.3" material="color:#3e3e3e"></a-entity>
+        <a-entity id="overhead" position="-0.827 0.965 5.682" geometry="depth:0.89;height:1.9;width:0.91" material="color:#3e3e3e"></a-entity>
+        <a-entity id="overhead-2" position="-0.827 0.415 5.472" geometry="primitive:cone;height:1.16;radiusBottom:0.89" material="color:#3e3e3e"></a-entity>
+        <a-entity id="counter1" position="1.195 -3.731 5.472" geometry="depth:2;height:2.5;width:1.76" material=""></a-entity>
+        <a-entity id="counter2" position="-2.853 -3.731 5.472" geometry="depth:2;height:2.5;width:1.76" material=""></a-entity>
+        <!--<a-entity id="counter1" position="3.137 3.152 -3.905" geometry="depth:2;height:1.02" material="color:red"></a-entity>-->
+        <!--<a-entity id="counter2" position="3.656 3.152 -1.21" geometry="depth:2;height:1.02" material="color:red"></a-entity>-->
+
+        <a-entity id="island_base" position="-0.819 -4.194 -0.583" geometry="depth:1.76;width:7.3;height:2.25" material=""></a-entity>
+        <a-entity id="island_top" position="-0.806 -3.206 -0.591" geometry="width:7.33;depth:2.43;height:0.36" material="src:images/marble3.jpg"></a-entity>
+        <a-entity id="island_side1" position="-4.451 -4.274 -0.59" geometry="depth:2.43;height:2.49;width:0.15" material="src:images/marble3.jpg"></a-entity>
+        <a-entity id="island_side2" position="2.802 -4.274 -0.59" geometry="depth:2.43;height:2.49;width:0.15" material="src:images/marble3.jpg"></a-entity>
+        <!--<a-entity id="island_side2" position="-5.221 -3.153 0.392" geometry="depth:2;height:1.02" material="src:images/marble3.jpg"></a-entity>-->
+    </a-entity>
+
+    <!--Barstools-->
+    <a-entity id="barstool1" obj-model="mtl:models/barstool/La Palma Stool.mtl;obj:models/barstool/La Palma Stool.obj" position="1.513 -0.447 11.011" scale="0.08 0.06 0.08"></a-entity>
+    <a-entity id="barstool2" obj-model="mtl:models/barstool/La Palma Stool.mtl;obj:models/barstool/La Palma Stool.obj" position="-0.82 -0.447 11.011" scale="0.08 0.06 0.08"></a-entity>
+    <a-entity id="barstool3" obj-model="mtl:models/barstool/La Palma Stool.mtl;obj:models/barstool/La Palma Stool.obj" position="-3.111 -0.447 11.011" scale="0.08 0.06 0.08"></a-entity>
+
+    <!--Fridge-->
+    <a-entity id="fridge" obj-model="mtl:models/fridge/materials.mtl;obj:models/fridge/model.obj" position="4.683 3.528 18.282" rotation="0 172.84 2.5500000000000003" scale="3.2 3.33 2.5"></a-entity>
+
+    <!--Dishwasher-->
+    <a-entity id="dishwasher" obj-model="mtl:models/dishwasher/Dishwasher_1292.mtl;obj:models/dishwasher/Dishwasher_1292.obj" position="-5.138 -0.386 19.004" rotation="0 180 0" scale="0.15 0.15 0.15"></a-entity>
+    <a-entity position="-5.018 2.887 19.185" id="counter_dish" geometry="width:2.61;depth:2.08;height:0.1" velocity="" material="color:#e8fdff"></a-entity>
 
 </a-scene>
 
