@@ -56,6 +56,7 @@ The web version can be found [here](https://mktaylor5.github.io/)<br />
 - Painting
 - [Potted Plant](https://poly.google.com/view/92c_Fqfhz5z)
 - [Robocactus](https://poly.google.com/view/biz9e5l6NmV)
+- Room Divider with wallpaper (custom model)
 - Television (custom model)
 - [White Door](https://poly.google.com/view/dRvd7q2nO-6)
 
