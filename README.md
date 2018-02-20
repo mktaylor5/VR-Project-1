@@ -39,7 +39,7 @@ The web version can be found [here](https://mktaylor5.github.io/)<br />
 - [Bar Stools](https://poly.google.com/view/63U8J3bGSaO)
 - [Books](https://poly.google.com/view/3ZqFRk2aK65)
 - Bookshelves - two, wooden (custom model)
-- Coffee Table - marble (custom model
+- Coffee Table - marble (custom model)
 - Dining Table (custom model)
 - Dining Chairs(4) (custom models)
 - [Dishwasher](https://poly.google.com/view/6GFFoaRr-mW)
