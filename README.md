@@ -2,8 +2,10 @@
 ### Dream Home
 Focuses on creating a human scale scene experienced from the 'inside out'. This scene can also be viewed with Google Cardboard on Android devices for full functionality.
 
-** Click the image below to open a video demo **
-(insert image link to video)
+** Click the image below to open a video demo ** <br />
+<a href="https://drive.google.com/file/d/1q08BUupbyNBJyxyuUur4MQaWUEn8LkcL/view?usp=sharing">
+  <img src="screenshots/overview.png">
+</a>
 <br />
 The web version can be found [here](https://mktaylor5.github.io/)<br />
 
@@ -19,8 +21,6 @@ The web version can be found [here](https://mktaylor5.github.io/)<br />
 
 
 ### Visuals
-![alt text](screenshots/overview.png "Overview")
-
 ![alt text](screenshots/living.png "Living Room")
 
 ![alt text](screenshots/tv.png "Living Room - TV")
