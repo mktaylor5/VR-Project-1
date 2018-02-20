@@ -12,10 +12,10 @@ The web version can be found [here](https://mktaylor5.github.io/)<br />
 
 
 ### User Interaction
-This scene features a few user interactions and animation. <br />
-The fire in the fireplace moves in a loop indefinitely to simulate a fire's movement. The fireplace can also be clicked on to play a fire crackling sound clip. <br />
-The fox sitting next to the couch can also be interacted with. When clicked, an audio clip of a fox bark will play. <br />
-There is also a dynamic model on the bar counter in the corner. Clicking on the drink will slide it across the counter top.
+- This scene features a few user interactions and animation.
+- The fire in the fireplace moves in a loop indefinitely to simulate a fire's movement. The fireplace can also be clicked on to play a fire crackling sound clip.
+- The fox sitting next to the couch can also be interacted with. When clicked, an audio clip of a fox bark will play.
+- There is also a dynamic model on the bar counter in the corner. Clicking on the drink will slide it across the counter top.
 
 
 ### Visuals
@@ -30,7 +30,6 @@ There is also a dynamic model on the bar counter in the corner. Clicking on the 
 ![alt text](screenshots/kitchen.png "Kitchen")
 
 ![alt text](screenshots/front_door.png "Front Door")
-
 
 
 ### Sources
@@ -49,5 +48,4 @@ Fridge: https://poly.google.com/view/7ojotRZrabO <br />
 Kitchen: https://poly.google.com/view/ekYAOSqE8fI <br />
 Potted Plant: https://poly.google.com/view/92c_Fqfhz5z <br />
 Robocactus: https://poly.google.com/view/biz9e5l6NmV <br />
-Sofa: (...)
 White Door: https://poly.google.com/view/dRvd7q2nO-6
