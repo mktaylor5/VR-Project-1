@@ -15,13 +15,13 @@
     </a-assets>
 
     <!--Environment Color-->
-    <a-sky color="#ECECEC"></a-sky>
+    <a-sky color="#ECECEC" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/city.jpg"></a-sky>
     <!--Camera-->
     <a-entity position="-21.328 1.5 12">
-        <a-camera universal-controls="" position="32 1.8 -3" rotation="0 90 0" camera="" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
-            <a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75">
-            </a-entity>
-        </a-camera>
+        <!--<a-camera universal-controls="" position="32 1.8 -3" rotation="0 90 0" camera="" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">-->
+            <!--<a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75">-->
+            <!--</a-entity>-->
+        <!--</a-camera>-->
     </a-entity>
 
     <!--Couch-->
@@ -39,23 +39,23 @@
     <!--<a-entity light="intensity:0.6;castShadow:true" position="-0.5 1 1" data-aframe-default-light="" aframe-injected="" id="directional"></a-entity>-->
 
     <!-- Ceiling -->
-    <a-entity id="ceiling" static-body geometry="primitive: box; depth: 50; height: 0.1; width: 75" position="0 14 5" material="shader: flat; side: double; opacity: 1; color: grey"></a-entity>
+    <a-entity id="ceiling" static-body="" geometry="depth:40.27;width:50;height:0.1" position="-7.706 14 0.246" material="shader:flat;side:double;color:grey"></a-entity>
 
     <!-- Floor -->
-    <a-entity static-body="" geometry="depth:40;width:60;height:0.1" position="-7.861 -0.5 0.488" material="shader:flat;side:double;src:images/floor.jpg;repeat:12 5"></a-entity>
+    <a-entity static-body="" geometry="width:47.66;depth:40;height:0.1" position="-7.083 -0.5 0.488" material="repeat:12 5;shader:flat;side:double;src:images/floor.jpg" id="floor"></a-entity>
 
     <!-- Trim -->
-    <a-entity geometry="width:61;depth:0.6" position="-7.439 13.5 -19.7" material="roughness:1;color:#707070"></a-entity>
-    <a-entity geometry="width:62;depth:0.6" position="-7.103 13.5 20.245" material="roughness:1;color:#707070"></a-entity>
-    <a-entity geometry="depth:0.6;width:42" position="16.124 13.5 0.956" rotation="0 90 0" material="color:#707070;roughness:1" id="trim_door"></a-entity>
-    <a-entity geometry="depth:0.6;width:42" position="-30.68 13.5 0.822" rotation="0 90 0" material="color:#707070;roughness:1" id="trim_glass"></a-entity>
+    <a-entity geometry="width:48.11;depth:0.6" position="-7.439 13.5 -19.7" material="color:#707070;roughness:1" id="trim_tv"></a-entity>
+    <a-entity geometry="width:47.410000000000004;depth:0.6" position="-7.103 13.5 20.245" material="color:#707070;roughness:1" id="trim_kitchen"></a-entity>
+    <a-entity geometry="width:40.15;depth:0.6" position="16.124 13.5 0.192" rotation="0 90 0" material="color:#707070;roughness:1" id="trim_door"></a-entity>
+    <a-entity geometry="width:40.72;depth:0.6" position="-30.68 13.5 0.138" rotation="0 90 0" material="color:#707070;roughness:1" id="trim_glass"></a-entity>
 
     <!--Walls #b0b0b0-->
-    <a-entity static-body="" geometry="height:14;width:42" position="-30.957 6.5 1.249" rotation="0 90 0" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_glass"></a-entity>
-    <a-entity static-body="" geometry="height:14;width:41" position="16.388 6.5 0.862" rotation="0 90 0" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_door"></a-entity>
+    <a-entity static-body="" geometry="width:40.7;height:14" position="-30.957 6.5 0.236" rotation="0 90 0" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_glass"></a-entity>
+    <a-entity static-body="" geometry="width:40.17;height:14" position="16.388 6.5 0.564" rotation="0 90 0" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_door"></a-entity>
     <!--<a-entity static-body="" geometry="width:60;height:14" position="-8.323 6.5 -20" material="roughness:1;src:images/walltexture.jpg"></a-entity>-->
-    <a-entity static-body="" geometry="height:14;width:60" position="-8.323 6.5 -20" material="normalTextureRepeat:2 1;repeat:2 1;roughness:1;src:images/walltexture.jpg"></a-entity>
-    <a-entity static-body="" geometry="height:14;width:60" position="-8.415 6.5 20.659" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_kitchen"></a-entity>
+    <a-entity static-body="" geometry="width:47.870000000000005;height:14" position="-7.152 6.5 -20" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_tv"></a-entity>
+    <a-entity static-body="" geometry="width:47.56;height:14" position="-7.158 6.5 20.659" material="repeat:2 1;normalTextureRepeat:2 1;roughness:1;src:images/walltexture.jpg" id="wall_kitchen"></a-entity>
 
     <!--Door-->
     <a-entity obj-model="mtl:models/whitedoor/CHAHIN_DOOR.mtl;obj:models/whitedoor/CHAHIN_DOOR.obj" position="16.009 3.372 13.511" class="intersectable" scale="2 2 2" id="whitedoor"></a-entity>
